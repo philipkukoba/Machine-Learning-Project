@@ -287,7 +287,8 @@ class KeywordExtractor:
         self.graph = Graph()
         if word2vec:
             print("Loading word2vec embedding...")
-            self.word2vec = KeyedVectors.load_word2vec_format(word2vec, binary=True)
+            # self.word2vec = KeyedVectors.load_word2vec_format(word2vec, binary=True)
+            self.word2vec = KeyedVectors.load(word2vec)
             print("Succesfully loaded word2vec embeddings!")
         else:
             self.word2vec = None
