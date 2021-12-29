@@ -1,1 +1,6 @@
 features.npy
+data/images/*
+data/images_one_folder/*
+101_ObjectCategories/*
+data/features/*
+logs/*
