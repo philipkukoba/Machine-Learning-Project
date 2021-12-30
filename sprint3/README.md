@@ -11,5 +11,4 @@ A list of what is in this file structure:
 * Sprint_3_Task_8.ipynb: Task 8.
 * Sprint_3_Task_9_staircase.ipynb: Task 9 - staircase.
 * Sprint_3_Task_9_wheelchair.ipynb: Task 9 - wheelchair.
-* data/ directory: Directory with provided and generated data.
-* Other files in the root directory: Files that are saved as intermediate results, generated models, generated arrays, results and photos.
+* Other files in the root directory: Results and photos that are needed to show in the notebooks.
